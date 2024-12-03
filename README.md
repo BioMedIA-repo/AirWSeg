@@ -25,7 +25,7 @@ This directory contains the code, file of outputs, and documentation for image p
 
 ### Subfolders
 
-- [AirWSeg](./RentinaDA/): Contains the processed images and original images.
+- [AirWSeg](./AirWSeg/): Contains the processed images and original images.
 
 
 ## Usage Instructions
