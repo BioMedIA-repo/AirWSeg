@@ -54,8 +54,8 @@ This directory contains the code, file of outputs, and documentation for image p
 The data structure should be like this:
 
 	/AirWSeg
-	    /ExACT09
-	    	/trans_data
+ 		/AirWSeg_preprocess
+	    	/ExACT09
 	            /images
 	                /CASE01_image.nii.gz
 	                /CASE02_image.nii.gz
@@ -64,17 +64,8 @@ The data structure should be like this:
 	                /CASE01_label.nii.gz
 	                /CASE02_label.nii.gz
 	                ...
-	        /ori_data
-	            /images
-	               /CASE01.nii.gz
-	               /CASE02.nii.gz
-	               ...
-	            /labels
-	               /CASE01.nii.gz
-	               /CASE02.nii.gz
-	                ...	
-	    /BAS
-	    	/trans_data
+
+	    	/BAS
 	            /train
 	                /images
 	                    /1.3.6.1.4.1.14519.5.2.1.6279.6001.100225287222365663678666836860_image.nii.gz
@@ -89,6 +80,16 @@ The data structure should be like this:
 	          	/test
 	  				...
 	     		...
+	     /AirWSeg_ori	
+	     	/ExACT09
+	            /images
+	               /CASE01.nii.gz
+	               /CASE02.nii.gz
+	               ...
+	            /labels
+	               /CASE01.nii.gz
+	               /CASE02.nii.gz
+	                ...	
 
 ## Version History
 
