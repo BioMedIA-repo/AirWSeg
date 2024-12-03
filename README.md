@@ -21,7 +21,7 @@ This directory contains the code, file of outputs, and documentation for image p
 ### Files
 
 - [README.md](./README.md/): Contains a basic introduction to this project.
-- [preprocess_img.py](./preprocess_img.py/): Preprocess the raw CT cases and save them in the specified folder.
+- [preprocess_img.py](./preprocess_img.py/): Preprocess the raw CT cases and save them in the specified directory.
 
 ### Subfolders
 
