@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project focuses on the collecting and preprocessing of lung airway datasets. It includes data augmentation steps for both images and labels. The preprocessing pipeline involves scaling intensity, flipping, rotation, and saving the transformed image-label pairs in a specified output directory.
+This project focuses on the collecting and preprocessing of lung airway datasets. It includes data augmentation steps for both images and labels. The preprocessing pipeline involves scaling intensity, flipping, rotation, and saving the preprocessed image-label pairs in a specified output directory.
 
 ## Feature Description
 
