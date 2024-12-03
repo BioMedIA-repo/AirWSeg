@@ -49,13 +49,13 @@ This directory contains the code, file of outputs, and documentation for image p
 - Ensure sufficient storage space in the output directory.
 - Adjust parameters like `a_min`, `a_max`, and augmentation probabilities (`prob`) to match the dataset's requirements.
 
-## Result Dataset
+## Dataset Structure
 
 The data structure should be like this:
 
 	/AirWSeg
 		/AirWSeg_preprocess
-			/ExACT09
+			/EXACT09
 			    /images
 				/CASE01_image.nii.gz
 				/CASE02_image.nii.gz
@@ -80,7 +80,7 @@ The data structure should be like this:
 			        ...
 			 ...
 		/AirWSeg_ori	
-			/ExACT09
+			/EXACT09
 			    /images
 			       /CASE01.nii.gz
 			       /CASE02.nii.gz
