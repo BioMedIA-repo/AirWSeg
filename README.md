@@ -53,43 +53,43 @@ This directory contains the code, file of outputs, and documentation for image p
 
 The data structure should be like this:
 
-/AirWSeg
-	/AirWSeg_preprocess
-		/ExACT09
-		    /images
-			/CASE01_image.nii.gz
-			/CASE02_image.nii.gz
-			...
-		    /labels
-			/CASE01_label.nii.gz
-			/CASE02_label.nii.gz
-			...
-		/BAS
-		    /train
-			/images
-			    /1.3.6.1.4.1.14519.5.2.1.6279.6001.100225287222365663678666836860_image.nii.gz
-			    /1.3.6.1.4.1.14519.5.2.1.6279.6001.100332161840553388986847034053_image.nii.gz
-			    ...	
-			/labels
-				/1.3.6.1.4.1.14519.5.2.1.6279.6001.100225287222365663678666836860_label.nii.gz
-				/1.3.6.1.4.1.14519.5.2.1.6279.6001.100332161840553388986847034053_label.nii.gz
-			    ...	
-		    /valid
-			...
-		    /test
-		        ...
-		 ...
-	/AirWSeg_ori	
-		/ExACT09
-		    /images
-		       /CASE01.nii.gz
-		       /CASE02.nii.gz
-		       ...
-		    /labels
-		       /CASE01.nii.gz
-		       /CASE02.nii.gz
+	/AirWSeg
+		/AirWSeg_preprocess
+			/ExACT09
+			    /images
+				/CASE01_image.nii.gz
+				/CASE02_image.nii.gz
+				...
+			    /labels
+				/CASE01_label.nii.gz
+				/CASE02_label.nii.gz
+				...
+			/BAS
+			    /train
+				/images
+				    /1.3.6.1.4.1.14519.5.2.1.6279.6001.100225287222365663678666836860_image.nii.gz
+				    /1.3.6.1.4.1.14519.5.2.1.6279.6001.100332161840553388986847034053_image.nii.gz
+				    ...	
+				/labels
+					/1.3.6.1.4.1.14519.5.2.1.6279.6001.100225287222365663678666836860_label.nii.gz
+					/1.3.6.1.4.1.14519.5.2.1.6279.6001.100332161840553388986847034053_label.nii.gz
+				    ...	
+			    /valid
+				...
+			    /test
+			        ...
+			 ...
+		/AirWSeg_ori	
+			/ExACT09
+			    /images
+			       /CASE01.nii.gz
+			       /CASE02.nii.gz
+			       ...
+			    /labels
+			       /CASE01.nii.gz
+			       /CASE02.nii.gz
+				...	
 			...	
-		...	
 ## Version History
 
 - Initial version: December 1, 2024
