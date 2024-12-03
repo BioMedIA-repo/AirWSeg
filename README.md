@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project focuses on the preprocessing of lung airway datasets. It includes data augmentation steps for both images and labels. The preprocessing pipeline involves scaling intensity, flipping, rotation, and saving the transformed image-label pairs in a specified output directory.
+This project focuses on the collecting and preprocessing of lung airway datasets. It includes data augmentation steps for both images and labels. The preprocessing pipeline involves scaling intensity, flipping, rotation, and saving the transformed image-label pairs in a specified output directory.
 
 ## Feature Description
 
@@ -21,11 +21,11 @@ This directory contains the code, file of outputs, and documentation for image p
 ### Files
 
 - [README.md](./README.md/): Contains a basic introduction to this project.
-- [preprocess_img.py](./preprocess_img.py/): Process image files to generate usable patches.
+- [preprocess_img.py](./preprocess_img.py/): Preprocess the raw CT cases and save them in the specified folder.
 
 ### Subfolders
 
-- [AirWSeg](./AirWSeg/): Contains the processed images and original images.
+- [AirWSeg](./AirWSeg/): Contains the raw data and preprocessed data of the dataset we collected.
 
 
 ## Usage Instructions
@@ -40,13 +40,10 @@ This directory contains the code, file of outputs, and documentation for image p
 ### Steps to Run
 
 1. Set the paths for the input dataset (`dataset_dir`), output images (`image_output_folder`), and output labels (`label_output_folder`).
-2. Ensure the input dataset contains subfolders `train/images/` and `train/labels/` with `.nii.gz` files.
-3. Run the script in a Python environment.
+2. Ensure the input dataset contains subfolders `images/` and `labels/` with `.nii.gz` files.
 
 ## Notes and Precautions
 
-- Verify that the input directory contains the correct file format (`.nii.gz`) and structure.
-- Ensure sufficient storage space in the output directory.
 - Adjust parameters like `a_min`, `a_max`, and augmentation probabilities (`prob`) to match the dataset's requirements.
 
 ## Dataset Structure
