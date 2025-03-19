@@ -4,6 +4,15 @@
 
 This project focuses on the collecting and preprocessing of lung airway datasets. It includes data augmentation steps for both images and labels. The preprocessing pipeline involves scaling intensity, flipping, rotation, and saving the preprocessed image-label pairs in a specified output directory.
 
+## Data Cleaning
+During the data preprocessing phase, we performed the following filtration steps:
+
+1. ​**Unlabeled Data Removal**  
+   Test cases lacking ground truth annotations in the challenge dataset were removed, as they provided no measurable validation value. These files were deemed non-contributory to the airway segmentation objectives.
+
+2. ​**Redundant Tissue Mask Elimination**  
+   The AeroPath dataset originally contained pulmonary parenchyma masks (stored in `/lung_mask/` directory, filenames: `Lung_Tissue_Mask_001` to `Lung_Tissue_Mask_030`). These masks delineate general lung tissue regions, which are anatomically distinct from airway structures and therefore irrelevant to our segmentation task.
+   
 ## Feature Description
 
 1. **Intensity Scaling**: Normalize image intensity values within a specific range.
@@ -89,6 +98,9 @@ The data structure should be like this:
 ## Version History
 
 - Initial version: December 1, 2024
+- major revision version：March 19,2025
+  - [Added] Data cleaning process description
+  - [Files] Upload data to Zenodo and add Zenodo repository link in [README.md](./AirWSeg/README.md)
 
 ## Contact Information
 
