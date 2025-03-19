@@ -10,7 +10,7 @@ During the data preprocessing phase, we performed the following filtration steps
 1. ​**Unlabeled Data Removal**  
    Test cases lacking ground truth annotations in the challenge dataset were removed, as they provided no measurable validation value. These files were deemed non-contributory to the airway segmentation objectives.
 
-2. ​**Redundant Tissue Mask Elimination**  
+2. ​**Redundant Tissue Mask Removal**  
    The AeroPath dataset originally contained pulmonary parenchyma masks (stored in `/lung_mask/` directory, filenames: `Lung_Tissue_Mask_001` to `Lung_Tissue_Mask_030`). These masks delineate general lung tissue regions, which are anatomically distinct from airway structures and therefore irrelevant to our segmentation task.
    
 ## Feature Description
