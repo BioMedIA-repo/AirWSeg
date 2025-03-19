@@ -1,4 +1,4 @@
-We uploaded AirWSeg dataset to Zenodo and Google Drive. Please download it yourself through the link below.
+We have uploaded the AirWSeg dataset to Zenodo and Google Drive. Please download it via the link below：
 
 Zenodo download link：https://zenodo.org/uploads/14991732
 
