@@ -5,7 +5,7 @@
 This project focuses on the collecting and preprocessing of lung airway datasets. It includes data augmentation steps for both images and labels. The preprocessing pipeline involves scaling intensity, flipping, rotation, and saving the preprocessed image-label pairs in a specified output directory.
 
 ## Data Cleaning
-During the data preprocessing phase, we performed the following filtration steps:
+During the data cleaning phase, we performed the following filtration steps:
 
 1. ​**Unlabeled Data Removal**  
    Test cases lacking ground truth annotations in the challenge dataset were removed, as they provided no measurable validation value. These files were deemed non-contributory to the airway segmentation objectives.
